@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: bs_development
+  template: template0
+  username: myuser
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: bs_test
+  template: template0
+  username: myuser
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: bs_production
+  template: template0
+  username: myuser
+  pool: 5
+  timeout: 5000
